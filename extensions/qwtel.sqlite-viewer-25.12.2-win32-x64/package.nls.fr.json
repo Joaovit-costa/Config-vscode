@@ -1,0 +1,19 @@
+{
+  "sqlite-viewer.customEditor.option.displayName": "SQLite Viewer",
+  "sqlite-viewer.customEditor.view.displayName": "SQLite Viewer (détecté automatiquement)",
+  "sqlite-viewer.customEditor.readonly.displayName": "SQLite Viewer (lecture seule)",
+  "sqlite-viewer.customEditor.wasm.displayName": "SQLite Viewer (lecture seule, en mémoire)",
+  "sqlite-viewer.config.maxFileSize.markdownDescription": "La taille maximale du fichier en Mo que l'extension tentera de charger. Réglez sur 0 pour désactiver la limite. La limite interne est de 4 Go, mais des limites de plateforme peuvent s'appliquer plus tôt.\n\n__Avertissement__: L'ouverture de fichiers volumineux peut entraîner de mauvaises performances, des blocages et une pression sur la mémoire système.\n\n[Passer à PRO](https://vscode.sqliteviewer.app) pour supprimer toutes les restrictions de taille et débloquer des fonctionnalités supplémentaires.",
+  "sqlite-viewer.commands.addFileNestingPatterns.title": "Ajouter des modèles d'imbrication de fichiers SQLite",
+  "sqlite-viewer.commands.enterLicenseKey.title": "Activer la clé de licence",
+  "sqlite-viewer.commands.removeLicenseKey.title": "Désactiver la clé de licence",
+  "sqlite-viewer.commands.enterAccessToken.title": "Activation de licence hors ligne",
+  "sqlite-viewer.commands.exportTable.title": "Exporter la table",
+  "sqlite-viewer.config.instantCommit.never": "Jamais",
+  "sqlite-viewer.config.instantCommit.remoteOnly": "Distant uniquement",
+  "sqlite-viewer.config.instantCommit.always": "Toujours",
+  "sqlite-viewer.config.instantCommit.markdownDescription": "Lorsque ce paramètre est activé, les modifications de la base de données sont immédiatement validées. Ce paramètre est ignoré pour les bases de données en lecture seule.\n\n__Avertissement__ : Lorsque ce paramètre est activé, la fonctionnalité d'annulation et de rétablissement est obtenue via des instructions SQLite \"inversées\", qui ne sont pas garanties de fonctionner (par exemple, si un autre processus a modifié la même ligne, etc.)",
+  "sqlite-viewer.config.doubleClickBehavior.modal": "Boîte de dialogue modale",
+  "sqlite-viewer.config.doubleClickBehavior.vscode": "Éditeur VS Code",
+  "sqlite-viewer.config.doubleClickBehavior.markdownDescription": "Contrôle le comportement lors du double-clic sur une cellule dans la vue de tableau.\n\n- **Boîte de dialogue modale**: Ouvre la ligne dans une boîte de dialogue modale intégrée (par défaut)\n- **Éditeur VS Code**: Ouvre la valeur de la cellule dans un onglet d'éditeur VS Code séparé (fonctionnalité PRO)"
+}

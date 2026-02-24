@@ -1,0 +1,37 @@
+{
+	"name": "oscura",
+	"displayName": "Oscura Theme",
+	"description": "An unapologetically dark and minimal theme.",
+	"version": "0.1.4",
+	"publisher": "Fey",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/narative/oscura"
+	},
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Oscura Midnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/oscura-midnight.json"
+			},
+			{
+				"label": "Oscura Dusk",
+				"uiTheme": "vs-dark",
+				"path": "./themes/oscura-dusk.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1767802682766,
+		"targetPlatform": "undefined",
+		"size": 131049
+	}
+}
